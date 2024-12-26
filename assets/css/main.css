@@ -1,0 +1,923 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+.container {
+    width: 80%;
+    margin: auto;
+
+}
+
+.clr {
+    clear: both;
+}
+ul{
+    list-style-type: none;
+}
+
+span {
+    color: rgb(255, 182, 6)
+}
+/*بداية سيكشن 1*/
+
+.header{
+    width: 100%;
+    height: 120vh;
+    background-color: #b0b0b0;
+    background-image: url(../imgs/banner-bg.jpg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+.navbar{
+    background-color: #fff;
+    height: 93px;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 3px;
+  z-index: 1;
+}
+@media screen and  (max-width: 600px){
+.header{
+    width: 100%;
+}
+.links{
+    float: right;
+    
+    height: 50px;
+}
+}
+  @media  screen and (min-width:600px ) and (max-width:1195px) {
+    .links{
+        margin-top: -44px;
+    }
+    .links ul li {
+       padding-left: -10px;
+    }
+  }  
+
+.logo{
+    float: left;
+    padding-left: 10px;
+    padding-top: 22px;
+}
+.logo img{
+    width: 159px;
+    padding-left: 35px;
+}
+.links{
+    float: right;
+   
+       height: 50px;
+    padding-top: 22px;
+}
+.links li {
+    
+    float: left;
+
+}
+.links li a{
+    color: #131230;
+    font-family: "Roboto",sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 20px;
+
+}
+.links  a{
+    text-decoration: none;
+    padding-left: 30px;
+}
+.header-content{
+   
+    text-align: center;
+    padding-top: 15%;
+}
+@media screen and(max-width: 600px){
+    .header-content{
+        padding: 200px 0 140px;
+        font-weight: 900px;
+    }
+}
+@media  screen and (min-width:600px ) and (max-width:1195px)  {
+    .header-content{
+        padding: 200px 0 140px;
+        font-weight: 900px;
+    }
+}
+.header-content h6{
+    color: #fff;;
+    font-size: 16px !important;
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+} 
+.header-content h1{
+    color: #fff;
+    font-family: "Playfair Display",serif;
+    font-size: 60px ;
+    font-weight: 700;
+    font-style: italic;
+}  
+
+
+/*نهاية سيكشن1*/
+/* بداية سيكشن 2*/
+.about {
+    padding-top: 1000px;
+    padding-right: 60px;
+    box-sizing: border-box;
+}
+
+.img-about {
+    float: left;
+    width: 50%;
+}
+@media screen and (max-width: 600px) {
+    
+    
+    .img-about{
+        width: 100%; 
+    }
+    .about-info{
+        float: left;
+        width: 100%;
+        padding: 0 5%;
+
+ 
+        
+}
+    }
+
+@media screen and (min-width:600px ) and (max-width:1195px)  {
+    .img-about{
+        width: 100%;
+        margin-top: 400px;
+    }
+@media screen and (min-width:600px ) and 
+  (max-width:1195px)  {
+    .imgg{
+    width: 330px;
+    height: 320px;
+    }
+}
+}
+
+.about-info {
+    float: left;
+    width: 50%;
+    margin-top: 137px;
+    padding-left: 70px;
+    box-sizing: border-box;
+}
+
+.stayle {
+    color: #ffb606;
+    font-style: italic;
+}
+
+.about-info h3 {
+    font-family: "Playfair Display", serif;
+    Font-size: 36px;
+    Font-weight: 700;
+    Line-height: 43.2px;
+}
+
+.about-info p {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgb(119, 119, 119);
+}
+
+
+.about-info a {
+    display: inline-block;
+    margin-top: 20px;
+    color: rgb(19, 18, 48);
+    text-decoration: none;
+    padding: 17px 17px;
+    font-weight: bold;
+    Font-size: 14px;
+    Line-height: 21px;
+    background-color: #ffb606;
+    font-family: "Playfair Display", serif;
+
+}
+.a1{}
+.a1:hover{
+    background: transparent;
+    border: 1px solid #ffb606;
+}
+
+/*نهاية سيكشن 2*/
+
+/*بداية سيكن 3*/
+.menu {
+    margin-top: 70px;
+    background-image: url("../imgs/food-bg.png.webp");
+    background-repeat: no-repeat;
+    background-position: top right;
+
+}
+
+.menu-h3 {
+    text-align: left;
+    font-family: "Playfair Display", serif;
+
+    Font-size: 36px;
+
+    Font-weight: 700;
+
+    Line-height: 43.2px;
+
+}
+
+
+span h3 {
+    color: rgb(255, 182, 6);
+}
+
+.itmes {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.itme {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+ 
+@media screen and (max-width:500px){
+    .itme{
+        width: 100%;
+        font-size: 30px;
+    }
+}
+@media  screen and (min-width:600px ) and (max-width:1195px)  {
+    .itme{
+        width: 100%;
+    }
+}
+.itme img {
+    width: 100%;
+}
+
+.menu p {
+
+    margin-top: 20px;
+    width: 35%;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+
+.itmes {
+    text-align: center;
+}
+
+.itmes h5 {
+    display: inline-block;
+    margin-top: 40px;
+    width: 80%;
+    height: 40px;
+    text-align: left;
+
+
+}
+
+.itmes p {
+    margin-top: 10px;
+    width: 70%;
+    Font-size: 16px;
+    Font-weight: 400;
+    Line-height: 21px;
+    color: #777;
+
+}
+
+
+
+
+
+.head-menu h5 {
+
+    color: #131230;
+    font-family: "Playfair Display", serif;
+    text-transform: capitalize;
+    font-size: 20px !important;
+    font-weight: 700;
+
+
+}
+
+.head-menu span {
+
+    color: #ffb606;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: right;
+
+
+}
+
+
+.inner {
+    background: #f9f9ff;
+    padding-bottom: 8px;
+}
+.inner:hover{
+    color: #131230;
+
+    background-color: #ffb606;
+    
+}
+.itme:hover{
+
+    color: #131230;
+}
+
+
+/*نهاية سيكشن 3*/
+
+/*بداية سيكشن 4*/
+.testy-food {
+    background-image: url(../imgs/reservation-bg.jpg.webp);
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+    background-position: center;
+    
+
+}
+.conntint{
+    padding-top: 260px;
+    
+}
+
+.testy-food h2 {
+
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    font-size: 51px !important;
+    font-weight: 700;
+}
+
+.testy-food h4 {
+    margin-top: 15px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px !important;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.testy-food a {
+    display: inline-block;
+    margin-top: 20px;
+    color: rgb(19, 18, 48);
+    background-color: #ffb606;
+    text-decoration: none;
+    width: auto;
+    font-weight: bold;
+        text-align: center;
+        padding: 12px 30px;
+    }
+.testy:hover{
+    color: #ffb606;
+    background: transparent;
+    border: 1px solid #ffb606;
+}
+
+
+/* نهاية سيكشن 4*/
+
+/*بداية سيكشن 5*/
+
+.menu2 {
+     padding-bottom: 7%; 
+}
+/* اول مقطع بداية*/
+.hp{
+    margin-bottom: 24px;
+}
+
+.menu2 h3 {
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    Font-size: 36px;
+    Font-weight: 700;
+    Line-height: 43.2px;
+}
+
+.menu2 p {
+    margin-top: 5px;
+    text-align: center;
+    color: #777;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.itmes2 p {
+    display: inline-block;
+    width: 400px;
+    height: 100px;
+
+}
+
+.itme1 { 
+    position: absolute;
+}
+
+.info-itme1 {
+    float: left;
+width: 50%;
+    height: 400px;
+    box-sizing: border-box;
+    position: relative;
+
+}
+.info-itme1 h1{
+    
+    text-align: left;
+   
+}
+.itme1 h1{
+    width: 500px;
+    height: 70px;
+    font-size: 60px;
+    font-weight: 700;
+    Line-height: 72px;
+    color: rgb(19, 18, 48);
+}
+.info-itme1 h3{
+    width: 600px;
+    
+    text-align: left;
+    margin-left: 90px;
+}
+.info-itme1 p{
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 90px; 
+}
+
+.dollar{
+    display: block;
+    text-align: left;
+    margin-left: 90px;
+    font-family: "Roboto",sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.book {
+    width: 400px;
+    height: 500px;
+    border: none;
+    margin-left:56px;
+}
+/* نهاية اول مقطع*/
+/*بداية المقطع الثاني*/
+
+.parts{
+    box-sizing: border-box;
+   position:relative;
+}
+.part-info h1{
+    text-align: left;
+    color: #131230;
+    font-style: inherit;
+    position: relative;
+    width: 500px;
+    height: 70px;
+    font-size: 60px !important;
+    font-weight: 700;
+    
+}
+
+.part-info h3{
+    text-align: left;
+    margin-left:  815px;
+}
+.part-info p{
+    width: 400px;
+    height: 100px;
+    margin-top: 20px;
+    text-align: left;
+}
+.dollars{
+    display: block;
+    text-align: center;
+   margin-left: 500px;
+   
+    font-family: "Roboto",sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.book2{
+        width: 400px;
+        height: 500px;
+        border: none;
+        margin-left:56px;    
+}
+
+.botm{
+
+    float: left;
+    margin-left:709px;
+   
+    
+}
+        
+.pat-img img{
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+.i{
+    margin-right: 20px; /*تزبيط السهم لليمين*/
+}
+
+/* نهاية سيكشن 5*/
+
+
+/* بداية سيكشن 6*/
+.bg{
+    background-image: url(../imgs/testimonial-bg.jpg.webp);
+    
+    background-repeat: no-repeat;
+    height: 65vh;
+    text-align: center;
+    background-position: center;
+    background-size: 100% 100%;
+   position: relative;
+   
+}
+
+
+
+
+.contant-bg{
+    padding-top: 8%;
+    background-color: rgba(1,7,16,0.8);
+    height:65vh;
+
+
+
+    
+}
+.bg h3{
+    color: #fff;
+    font-family: "Playfair Display", serif;
+     Font-size : 36px;
+     Font-weight: 700;
+     Line-height: 43.2px;
+}
+.bg p{
+    font-family: Roboto, sans-serif;
+     Font-size: 14px;
+     Font-weight: 400;
+    Line-height: 21px;
+    color: rgb(255, 255, 255);
+}
+/*نهايةسيكشن6*/
+
+/* بداية سيكشن 7*/
+.section-food{
+    margin-top: 7%;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+.section-food h3 {
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    Font-size: 36px;
+    Font-weight: 700;
+    Line-height: 43.2px;
+}
+
+.section-food p {
+    margin-top: 5px;
+    text-align: center;
+    color: #777;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.sections{
+    text-align: center;
+    padding: 40px 30px;
+}
+.section{
+    float: left;
+    width: auto;
+    width: 33.33%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.section img {
+    width: 100%;
+}
+.icon{
+    margin-top: 40px;
+    float: left;
+    width: auto;
+    Font-family: Roboto, sans-serif;
+    Font-size: 14px;
+    Font-weight: 400;
+    Line-height: 21px;
+    margin-bottom: 15px;
+    
+}
+.Admin{
+    color: #777; 
+    margin-left: 25px;
+        padding-right: 50px;
+    float: left; 
+
+}
+.number{
+    color: #777;
+   margin-right: 50px;
+   padding-right: 50px;
+   float: right; 
+    
+}
+.sections h5 {
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 22px;
+    width: 95%;
+    height: 40px;
+    text-align: left;
+    font-family: "Playfair Display", serif;
+    Font-size: 20px;
+    font-weight: 700;
+    Line-height: 24px;
+    color: rgb(19, 18, 48);
+}
+.sections p {
+
+    margin-top: 1px;
+    margin-left: 10px;
+    float: left;
+    width:76%;
+    color: #777;
+    margin-bottom: 20px;
+}
+.sections a{
+ border: none;
+ float: right;
+ width: 141%;
+ Font-family: Roboto, sans-serif;
+ Font-size: 14px;
+Font-weight: 500;
+Line-height: 21px;
+color: rgb(19, 18, 48);
+padding-bottom: 30px;
+
+}
+
+.inners {
+    background: #f9f9ff;
+    padding-bottom: 8px;
+}
+.inners:hover{
+    background: #fff;;
+}
+.head-menu span:hover{
+    color: #131230;
+}
+/* نهاية سيكشن 7*/
+/* بداية سيكشن 8*/
+.tabel{
+    margin-top: 39%;
+    padding-top: 50px;
+    background-image: url(../imgs/table-bg.jpg.webp);
+    background-repeat: no-repeat;
+    height: 65vh;
+    background-position: center;
+    background-size: 100% 100%;
+   position: relative;
+}
+.overlay{
+    background: rgba(1,7,16,0.7);
+    margin-top:-50px ;
+    padding-bottom: 195px;
+
+}
+.text-cont{
+    text-align: center;
+    padding-top: 30px;
+
+}
+.text-cont h3{
+    Font-family: "Playfair Display", serif;
+    Font-size: 36px;
+    Font-weight: 700;
+    Line-height: 43.2px;
+    color: rgb(255, 255, 255);
+}
+.text-cont p{
+    Font-family: Roboto, sans-serif;
+    Font-size: 14px;
+    Font-weight: 400;
+    Line-height: 21px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    
+}
+.offast{
+    padding-left: 180px;
+}
+ .input{
+    float: left;
+    width: 33.33%;
+    margin-top: 50PX;
+    box-sizing: border-box;
+ }
+ .input-group i{
+   background-color: #f9f9ff;
+   width: 56px;
+   height: 45px;
+   text-align: center;
+   padding-top: 13px;
+   border-radius: 0.25px;
+ }
+ .datepicker {
+    border-radius: 0 5px 5px 0;
+    border: none;
+    height: 27px;
+}
+ .a2{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 400px;
+    color: rgb(19, 18, 48);
+    text-decoration: none;
+    padding: 13px 20px;
+    font-weight: bold;
+    Font-size: 17px;
+    Line-height: 21px;
+    background-color: #ffb606;
+    font-family: "Playfair Display", serif;
+    text-transform: capitalize;
+ }
+ /*نهاية سيكشن 8*/
+ /*بداية سيكشن9*/
+.last{
+    background-color: #131230;
+    padding: 130px 0;
+   
+}
+.last-cont{
+   
+}
+.food-fan{
+    float: left;
+    width: 33.33%;
+    margin-left: 50px;
+}
+.food-fan p{
+    display: block;
+    width: 320px;
+    height: 105px;
+    Font-family: Roboto, sans-serif;
+    Font-size: 14px;
+    Font-weight: 400;
+    Line-height: 21px;
+    color: rgb(119, 119, 119);
+    margin-top: 10px;
+}
+.Contact-Us{
+    float: left;
+    width: 33.33%;
+}
+.Contact-Us h5{ 
+
+    Font-family: "Playfair Display", serif;
+    Font-size: 20px;
+    Font-weight: 700;
+    Line-height: 24px;
+     color: rgb(255, 182, 6);
+}
+.into-icon{
+    width: 12px;
+    height: 20px;
+    margin-right: 5px;
+    padding-top: 20px;
+    Font-family: FontAwesome;
+    Font-size: 20px;
+    Font-weight: 400;
+    Line-height: 20px;
+    color: rgb(119, 119, 119);
+}
+.into-text{
+    display:inline-block;
+    margin-left: 30px;
+    Font-family: Roboto, sans-serif;
+    Font-size: 14px;
+    Font-weight: 400;
+    Line-height: 21px;
+    color: rgb(119, 119, 119);
+}
+.Opening-Hours h5{
+color: #ffb606;
+Font-family: "Playfair Display", serif;
+Font-size: 20px;
+Font-weight: 700;
+Line-height: 24px;
+color: rgb(255, 182, 6);
+padding-bottom: 20px;
+}
+.Opening-Hours p{
+    Font-family: Roboto, sans-serif;
+    Font-size: 14px;
+    Font-weight: 400;
+    Line-height: 21px;
+    color: rgb(119, 119, 119);
+}
+.p1 {
+    padding-bottom: 20px;
+}
+.p2 {
+    padding-bottom: 20px;
+}
+.p3 {
+    padding-bottom: 20px;
+}
+.p4 {
+    padding-left: 20px;
+}
+
+/*نهاية سيكشن 9*/
+
+/*بداية سيكشن 10*/
+.footar{
+    padding: 30px 0;
+    background: #0d0d27;
+    color: #fff;
+}
+.fottar-left{
+ float: left;
+ width: 50%;
+}
+.fottar-left span{
+    color: #fff;
+   width: 600px;
+   height: 20px;
+}
+.Colorlib{
+    
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.footar-right{
+   
+    width: 50%;
+    margin-left: 800px;
+}
+.footar-right ul li{
+    
+    margin-left:20px;
+ display: inline-block;
+}
+.follo{
+    display: inline;
+    margin-left: 25px;
+    Font-family: Roboto, sans-serif;
+    Font-size: 14px;
+    Font-weight: 400;
+    Line-height: 21px;
+    color: rgb(255, 255, 255);
+}
+.footar-right  i {
+    Font-family: FontAwesome;
+    Font-size: 14px;;
+    Font-weight: 400;;
+    Line-height: 14px;;
+    color: rgb(255, 255, 255);
+
+}
+ .fottar-i:hover{
+    color: #ffb606;
+}
+/*نهاية سيكشن10*/
